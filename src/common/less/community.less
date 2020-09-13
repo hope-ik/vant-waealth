@@ -1,0 +1,456 @@
+.community {
+	height: auto;
+	width: 100%;
+	background-color: #f5f4f9;
+
+	.community_body {
+		height: 100%;
+		width: 100%;
+		background-color: #f5f4f9;
+
+		.top_search {
+			.sea_icon {
+				margin-left: 10px;
+				display: flex;
+				align-items: center;
+			}
+		}
+
+		.top_navb {
+			height: auto;
+			width: 100%;
+			font-size: 15px;
+
+			img {
+				width: 30px;
+				height: 30px;
+			}
+
+			span {
+				margin-top: 10px;
+			}
+		}
+
+		.tab_page {
+			height: 100%;
+			width: 100%;
+
+			// 热门
+			.host_box {
+				height: auto;
+				width: 100%;
+				margin-top: 1px;
+				background-color: #f5f4f9;
+
+				.cont_box {
+					height: 235px;
+					width: 100%;
+					background-color: #fff;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					margin-bottom: 10px;
+
+					.user_box {
+						height: 40px;
+						width: 90%;
+						margin-top: 15px;
+						margin-bottom: 10px;
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+
+						.user_left {
+							height: auto;
+							width: auto;
+							display: flex;
+							align-items: center;
+
+							.user_img {
+								height: 25px;
+								width: 25px;
+								margin-right: 10px;
+							}
+
+							span {
+								font-size: 15px;
+								font-weight: 800;
+							}
+						}
+
+						.user_right {
+							height: auto;
+							width: auto;
+							display: flex;
+							align-items: center;
+
+							span {
+								display: block;
+								height: 25px;
+								width: 65px;
+								text-align: center;
+								line-height: 27px;
+								border-radius: 3px;
+								font-size: 10px;
+								color: #118ee8;
+								background-color: #ecf7fd;
+							}
+						}
+					}
+
+					.cont_box {
+						height: auto;
+						width: 90%;
+
+						.title_box {
+							height: auto;
+							width: 100%;
+							font-weight: 600;
+							margin-bottom: 15px;
+
+							span {
+								display: block;
+								height: auto;
+								width: 100%;
+								font-size: 20px;
+								overflow: hidden;
+								text-overflow: ellipsis;
+								white-space: nowrap;
+								text-align: left;
+							}
+						}
+
+						.description_box {
+							height: 70px;
+							width: 100%;
+							display: flex;
+							justify-content: space-between;
+
+							.text_box {
+								height: 100%;
+								width: 210px;
+								font-size: 15px;
+								text-align: left;
+								display: -webkit-box;
+								-webkit-box-orient: vertical;
+								-webkit-line-clamp: 3;
+								overflow: hidden;
+								line-height: 22px;
+							}
+
+							img {
+								height: 100%;
+								width: 120px;
+								border-radius: 5px;
+							}
+						}
+					}
+
+					.bottom_box {
+						height: 40px;
+						width: 90%;
+						// background-color: #a26cee;
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+
+						.left_box {
+							color: #999999;
+							font-size: 10px;
+						}
+
+						.right_box {
+							height: 100%;
+							width: auto;
+							display: flex;
+							align-items: center;
+
+							.like_box {
+								height: 100%;
+								width: auto;
+								font-size: 13px;
+								display: flex;
+								align-items: center;
+								margin-left: 15px;
+								color: #000;
+							}
+
+							.comment_box {
+								height: 100%;
+								width: auto;
+								font-size: 13px;
+								display: flex;
+								align-items: center;
+								color: #000;
+								margin-left: 10px;
+							}
+						}
+					}
+				}
+			}
+
+			// 讨论区
+			.forum_box {
+				height: auto;
+				width: 100%;
+
+				.my_forum {
+					height: auto;
+					width: 100%;
+					margin-top: 1px;
+					background-color: #fff;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					margin-bottom: 10px;
+
+					.tab_title {
+						height: 45px;
+						width: 100%;
+						margin-top: 10px;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						border-bottom: 0.1px solid #fdfdfd;
+						margin-bottom: 10px;
+
+						.title_box {
+							height: 100%;
+							width: 90%;
+							display: flex;
+							justify-content: space-between;
+							align-items: center;
+
+							span {
+								font-size: 18px;
+								font-weight: 800;
+							}
+
+							.skip_box {
+								height: auto;
+								width: auto;
+								display: flex;
+								align-items: center;
+
+								span {
+									font-size: 13px;
+									color: #999999;
+									font-weight: normal;
+								}
+							}
+						}
+					}
+
+					.comment_box {
+						height: auto;
+						width: 93%;
+
+						.cont_box {
+							height: 80px;
+							width: 100%;
+							display: flex;
+							align-items: center;
+							margin-bottom: 25px;
+
+							.regulation_data {
+								height: 100%;
+								width: 115px;
+								background-image: linear-gradient(-130deg, #F26C32, #EF5732, #EB3A2F);
+								border-radius: 15px 15px 15px 3px;
+								display: flex;
+								align-items: flex-start;
+								flex-direction: column;
+								justify-content: center;
+								margin-right: 10px;
+
+								span:nth-child(1) {
+									font-size: 20px;
+									color: #fff;
+									font-weight: 600;
+									text-align: left;
+									margin-left: 15px;
+									margin-bottom: 10px;
+								}
+
+								span:nth-child(2) {
+									font-size: 10px;
+									color: #c7c7c7;
+									text-align: left;
+									margin-left: 15px;
+								}
+							}
+
+							.description_box {
+								height: 50px;
+								width: 220px;
+								display: flex;
+								flex-direction: column;
+								justify-content: space-between;
+
+								span:nth-child(1) {
+									font-size: 15px;
+									text-align: left;
+									font-weight: bold;
+								}
+
+								span:nth-child(2) {
+									font-size: 10px;
+									color: #999999;
+									text-align: left;
+									white-space: nowrap;
+									overflow: hidden;
+									text-overflow: ellipsis;
+								}
+							}
+						}
+					}
+				}
+
+				.wealth_team {
+					height: auto;
+					width: 100%;
+					background-color: #fff;
+					margin-bottom: 10px;
+					padding-bottom: 15px;
+
+					.tab_title {
+						height: 65px;
+						width: 100%;
+						margin-top: 10px;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+
+						.title_box {
+							height: 100%;
+							width: 90%;
+							display: flex;
+							justify-content: space-between;
+							align-items: center;
+
+							span {
+								font-size: 18px;
+								font-weight: 800;
+							}
+
+							.skip_box {
+								height: auto;
+								width: auto;
+								display: flex;
+								align-items: center;
+
+								span {
+									font-size: 13px;
+									color: #999999;
+									font-weight: normal;
+								}
+							}
+						}
+					}
+
+					.cont-box {
+						height: auto;
+						width: 93%;
+						margin: 0 auto;
+
+						// 上层卡片
+						.top_card {
+							height: 120px;
+							width: 100%;
+							display: flex;
+							justify-content: space-between;
+							align-items: center;
+							margin-bottom: 15px;
+
+							.card_box {
+								height: 100%;
+								width: 169px;
+								background-color: #34ffc6;
+								border-radius: 15px 15px 15px 5px;
+								text-align: left;
+								display: flex;
+								flex-direction: column;
+								justify-content: center;
+
+								span {
+									font-size: 18px;
+									font-weight: 600;
+									color: #fff;
+									margin-top: 25px;
+									margin-left: 15px;
+								}
+
+								.text_box {
+									display: flex;
+									align-items: center;
+									height: 20px;
+									width: 145px;
+									background-color: #00000061;
+									border-radius: 20px;
+									margin-top: 10px;
+									margin-left: 15px;
+
+									span {
+										font-size: 10px;
+										white-space: nowrap;
+										line-height: 30px;
+										overflow: hidden;
+										text-overflow: ellipsis;
+										margin-top: 0;
+										margin-left: 5px;
+									}
+								}
+							}
+						}
+
+						// 下层卡片
+						.bottom_card {
+							height: 300px;
+							width: 100%;
+
+							.card_box {
+								height: 80px;
+								width: 100%;
+								display: flex;
+								align-items: center;
+								margin-bottom: 25px;
+
+								.regulation_data {
+									height: 100%;
+									width: 115px;
+									background-image: linear-gradient(-130deg, #3caa3a, #3caa3a, #5ac64f);
+									border-radius: 15px 15px 15px 3px;
+									margin-right: 10px;
+								}
+
+								.description_box {
+									height: 45px;
+									width: 220px;
+									display: flex;
+									flex-direction: column;
+									justify-content: space-between;
+
+									span:nth-child(1) {
+										font-size: 18px;
+										text-align: left;
+									}
+
+									span:nth-child(2) {
+										font-size: 10px;
+										color: #999999;
+										text-align: left;
+										white-space: nowrap;
+										overflow: hidden;
+										text-overflow: ellipsis;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+			// 关注
+		}
+	}
+}
