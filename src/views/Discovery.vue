@@ -125,8 +125,8 @@
             </van-tab>
             <van-tab title="热点">
               <div class="title" v-for="index in 4" :key="index">
-                <div>A股震荡 多只基金净值明显缩水</div>
-                <div class="span">9月以来，公墓基金多只重量级新品启动发行，其中，嘉实基金董事长总经理，平衡...</div>
+                <div>北向资金大调仓!</div>
+                <div class="span">本周市场震荡调整,上证指数、深证成指、创业板指分分别下跌2.83%、5.23%....</div>
 
                 <div class="span1">金融投资报</div>
                 <van-image
@@ -155,8 +155,8 @@
             </van-tab>
             <van-tab title="基金">
               <div class="title" v-for="index in 4" :key="index">
-                <div>A股震荡 多只基金净值明显缩水</div>
-                <div class="span">9月以来，公墓基金多只重量级新品启动发行，其中，嘉实基金董事长总经理，平衡...</div>
+                <div>北向资金大调仓!</div>
+                <div class="span">本周市场震荡调整,上证指数、深证成指、创业板指分分别下跌2.83%、5.23%....</div>
 
                 <div class="span1">金融投资报</div>
                 <van-image

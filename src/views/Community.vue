@@ -70,7 +70,7 @@
                         radius="3"
                         src="https://img.yzcdn.cn/vant/cat.jpeg"
                       />
-                      <span>龙行天下虎</span>
+                      <span>阳光天气与你</span>
                     </div>
                     <div class="user_right">
                       <span>+关注</span>
@@ -78,26 +78,26 @@
                   </div>
                   <div class="cont_box">
                     <div class="title_box">
-                      <span>收评│有什么我们就说什么关于A股</span>
+                      <span>一周两节|两手准备，盈利是大概率...</span>
                     </div>
                     <div class="description_box">
-                      <div class="text_box">先来看看今天行情的情况，周四两市高开低走，盘面上白酒、保险、消费、地产等板块上涨大萨达所大奥所大所多</div>
+                      <div class="text_box">上证指数从今年最高点3458.79(7月13日)到3260.35点位，回车幅度...</div>
                       <img src="https://img.yzcdn.cn/vant/cat.jpeg" alt />
                     </div>
                   </div>
                   <div class="bottom_box">
                     <div class="left_box">
-                      <span>1小时前</span>
+                      <span>32分钟前</span>
                     </div>
                     <div class="right_box">
                       <van-icon name="ellipsis" size="20" color="#ADADAD" />
                       <div class="like_box">
                         <van-icon name="good-job-o" size="20" />
-                        <span>278</span>
+                        <span>999+</span>
                       </div>
                       <div class="comment_box">
                         <van-icon name="comment-o" size="20" />
-                        <span>175</span>
+                        <span>999+</span>
                       </div>
                     </div>
                   </div>
@@ -150,25 +150,34 @@
                 <div class="cont-box">
                   <div class="top_card">
                     <div class="card_box">
-                      <span>基金综合</span>
+                      <span>养老早规划</span>
                       <div class="text_box">
-                        <span>XXXXXXXXXXXXXXXXXXXX</span>
+                        <span>如果没有养老金，60岁100...</span>
                       </div>
                     </div>
                     <div class="card_box">
-                      <span>科技大家谈</span>
+                      <span>基金综合</span>
                       <div class="text_box">
-                        <span>XXXXXXXXXXXXXXXXXXXX</span>
+                        <span>
+                          <span style="color:rgb(253, 173, 39)">[99+条]</span>明星基金经理的持仓...
+                        </span>
                       </div>
                     </div>
                   </div>
                   <div class="bottom_card">
                     <template v-for="index in 3">
                       <div class="card_box" :key="index">
-                        <div class="regulation_data"></div>
+                        <div class="regulation_data">
+                          <van-image
+                            style="border-radius: 8px;"
+                            width="115px"
+                            height="80px"
+                            src="https://img.yzcdn.cn/vant/cat.jpeg"
+                          />
+                        </div>
                         <div class="description_box">
-                          <span>苹果 US讨论区</span>
-                          <span>为什么我在这个上面看到的苹果指数和在其他的不一样</span>
+                          <span>大学生理财社小组</span>
+                          <span>你最厉害的省钱方式都有哪些？在当前...</span>
                         </div>
                       </div>
                     </template>
@@ -177,7 +186,18 @@
               </div>
             </div>
           </van-tab>
-          <van-tab title="关注">关注</van-tab>
+          <van-tab title="关注">
+            <div class="attention" style="    font-size: 12px;">
+              <van-image
+                width="45px"
+                height="45px"
+                fit="contain"
+                src="https://img.yzcdn.cn/vant/cat.jpeg"
+              />
+              <p>你还没有关注的人</p>
+              <p>赶紧去社区找找牛人吧！</p>
+            </div>
+          </van-tab>
         </van-tabs>
         <!-- </van-sticky> -->
       </div>

@@ -10,10 +10,9 @@
     title-active-color="#2772FF"
     title-inactive-color="#000"
   >
-    <van-tab :title="item" :key="index" v-for="(item, index) in tab_one">
+    <van-tab :title="item.name" :key="index" v-for="(item, index) in tab_one">
       <div class="cont_box">
         <div
-          v-for="(item,index) in list"
           :class="['interior_box showItem animate__animated animate__fadeIn','show'+item.id]"
           :key="index"
           ref="showItem"
@@ -63,12 +62,30 @@ export default {
     return {
       tab_one_active: 0,
       tab_one: [
-        "投资顺风车",
-        "攒点金子",
-        "稳健理财",
-        "精选组合",
-        "进攻优选",
-        "保险优选",
+        {
+          name: "投资顺风车",
+          id: 1,
+        },
+        {
+          name: "攒点金子",
+          id: 2,
+        },
+        {
+          name: "稳健理财",
+          id: 3,
+        },
+        {
+          name: "精选组合",
+          id: 4,
+        },
+        {
+          name: "进攻优选",
+          id: 5,
+        },
+        {
+          name: "保险优选",
+          id: 6,
+        },
       ],
       list: [
         { id: 1, title: "地产" },
@@ -82,6 +99,15 @@ export default {
   },
 };
 </script>
+<style lang="less" scoped>
+.cont_box {
+  width: 83%;
+  height: 290px;
+  margin: 0 auto;
+  position: relative;
+  top: 8px;
+}
+</style>
 <style lang="less">
 @import url(../common/less/vuestyle.less);
 </style>

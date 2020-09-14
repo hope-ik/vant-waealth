@@ -39,15 +39,9 @@
               placeholder="请输入手机号"
               label-width="50px"
             />
-            <van-field
-              v-model="pwd"
-              label="验证码"
-              type="digit"
-              placeholder="请输入验证码"
-              label-width="50px"
-            >
+            <van-field v-model="pwd" label="密码" type="digit" placeholder="请输入密码" label-width="50px">
               <template #extra>
-                <span class="right_text">获取验证码</span>
+                <span class="right_text"></span>
               </template>
             </van-field>
           </van-cell-group>
@@ -184,8 +178,8 @@ export default {
 
       .lg_btn {
         border: none;
-        background-color: #f3f4f6;
-        color: #adaeac;
+        background-color: #19ad19;
+        color: #ffffff;
         font-size: 15px;
       }
 

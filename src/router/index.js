@@ -6,6 +6,10 @@ Vue.use(VueRouter)
 const routes = [{
         path: '/login',
         name: 'Login',
+        meta: {
+            // 页面标题title
+            title: '登录'
+        },
         component: () =>
             import ('../views/Login.vue')
     },
@@ -13,6 +17,7 @@ const routes = [{
         path: '/',
         name: 'Discovery',
         meta: {
+            title: '发现',
             requireAuth: true //创建权限
         },
         component: () =>
@@ -21,6 +26,10 @@ const routes = [{
     {
         path: '/optional',
         name: 'Optional',
+        meta: {
+            // 页面标题title
+            title: '自选'
+        },
         component: () =>
             import ('../views/Optional.vue'),
         redirect: '/optional/opt_stock',
@@ -41,12 +50,20 @@ const routes = [{
     {
         path: '/community',
         name: 'Community',
+        meta: {
+            // 页面标题title
+            title: '社区'
+        },
         component: () =>
             import ('../views/Community.vue')
     },
     {
         path: '/property',
         name: 'Property',
+        meta: {
+            // 页面标题title
+            title: '资产'
+        },
         component: () =>
             import ('../views/Property.vue')
     }
